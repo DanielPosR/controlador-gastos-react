@@ -389,6 +389,13 @@ main {
     height: 3rem;
 }
 
+@media (max-width: 768px) {
+    .modal .cerrar-modal {
+        right: 0rem;
+        top: 0rem;
+    }
+}
+
 .modal .cerrar-modal img {
     width: 100%;
 }
